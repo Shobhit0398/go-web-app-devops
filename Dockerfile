@@ -5,6 +5,8 @@
 # Start with a base image
 FROM golang:1.21 as base
 
+
+
 # Set the working directory inside the container
 WORKDIR /app
 
